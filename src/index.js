@@ -12,8 +12,7 @@ class RestController extends React.Component {
       author: { id: 0, firstName: "", lastName: "" },
       isSubmitLabel: true,
     };
-    //this.state = {authors: []};
-
+   
     this.handleChangeFirstName = this.handleChangeFirstName.bind(this);
     this.handleChangeLastName = this.handleChangeLastName.bind(this);
     this.handleSubmit = this.handleSubmit.bind(this);
