@@ -71,7 +71,6 @@ class RestController extends React.Component {
             firstName: this.state.author.firstName,
             lastName: this.state.author.lastName,
           };
-
           this.setState({ authors: [...this.state.authors, author] });
         } else {
           alert("Something happened wrong");
